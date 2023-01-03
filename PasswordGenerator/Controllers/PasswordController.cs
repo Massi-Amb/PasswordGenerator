@@ -21,7 +21,9 @@ namespace PasswordGenerator.Controllers
             int maxCharCode = 126;
             string result = "";
 
+            //Initializing Random Class 
             Random myRandom = new Random();
+
 
             for (int i = 0; i < passlength; i++)
             {
